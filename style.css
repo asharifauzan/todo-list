@@ -2,3 +2,15 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrapper {
+  background: red;
+  padding: 10px;
+}
