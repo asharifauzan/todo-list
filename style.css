@@ -57,12 +57,12 @@ body {
 
 .list ol {
   margin-left: 10px;
-  position: relative;
   font-weight: bold;
   width: 100%;
 }
 
 .list ol li {
+  position: relative;
   margin-bottom: 5px;
 }
 
@@ -70,7 +70,7 @@ body {
   background: #62A1ED;
 }
 
-.list li span {
+.close {
   font-weight: bold;
   background: red;
   color: white;
@@ -85,6 +85,6 @@ body {
   user-select: none;
 }
 
-.list li span:after {
+.close:after {
   content: 'X';
 }
