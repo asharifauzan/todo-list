@@ -36,10 +36,10 @@ body {
 
 
 .head button {
-  background: #2D72CA;
-  border: 2px solid #2D72CA;
+  background: white;
+  color: #2D72CA;
   font-size: 1rem;
-  color: white;
+  border: none;
   padding: 6px;
   font-weight: bold;
   user-select: none;
@@ -47,9 +47,8 @@ body {
 }
 
 .head button:hover {
-  background: white;
-  color: #2D72CA;
-  border: 2px solid #2D72CA;
+  background: #2D72CA;
+  color: white;
 }
 
 .list {
@@ -65,6 +64,10 @@ body {
 
 .list ol li {
   margin-bottom: 5px;
+}
+
+.list ol li:nth-child(odd) {
+  background: #62A1ED;
 }
 
 .list li span {
