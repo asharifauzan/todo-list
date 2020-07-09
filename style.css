@@ -33,13 +33,20 @@ body {
 
 .head button {
   background: #2D72CA;
-  border: 0;
+  border: 2px solid #2D72CA;
+  /* border: 0; */
   font-size: 1rem;
   color: white;
   padding: 6px;
   font-weight: bold;
   user-select: none;
   cursor: pointer;
+}
+
+.head button:hover {
+  background: white;
+  color: #2D72CA;
+  border: 2px solid #2D72CA;
 }
 
 .list {
