@@ -26,6 +26,20 @@ body {
 .head input {
   flex: 1;
   border: 0px;
+  padding: 6px;
+  font-weight: bold;
+}
+
+
+.head button {
+  background: #2D72CA;
+  border: 0;
+  font-size: 1rem;
+  color: white;
+  padding: 6px;
+  font-weight: bold;
+  user-select: none;
+  cursor: pointer;
 }
 
 .list {
