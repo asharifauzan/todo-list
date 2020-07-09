@@ -19,10 +19,13 @@ body {
 .head {
   background: yellow;
   display: flex;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .head input {
   flex: 1;
+  border: 0px;
 }
 
 .list {
