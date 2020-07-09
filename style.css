@@ -13,4 +13,19 @@ body {
 #wrapper {
   background: red;
   padding: 10px;
+  width: 400px;
+}
+
+.head {
+  background: yellow;
+  display: flex;
+}
+
+.head input {
+  flex: 1;
+}
+
+.list {
+  background: blue;
+  margin-left: 20px;
 }
