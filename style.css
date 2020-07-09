@@ -63,16 +63,25 @@ body {
   width: 100%;
 }
 
+.list ol li {
+  margin-bottom: 5px;
+}
+
 .list li span {
   font-weight: bold;
-  background: black;
-  color: red;
+  background: red;
+  color: white;
   border-radius: 100%;
-  padding: 2px;
+  line-height: 100%;
+  padding: 2px 4px;
   position: absolute;
   right: 0px;
   top: -10%;
   box-sizing: border-box;
   cursor: pointer;
   user-select: none;
+}
+
+.list li span:after {
+  content: 'X';
 }
